@@ -1,0 +1,68 @@
+/* ScheduleTrainForm.css */
+.schedule-form-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .schedule-form-container h2 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .schedule-form-container p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #555;
+  }
+  
+  .schedule-form-container form div {
+    margin-bottom: 1rem;
+  }
+  
+  .schedule-form-container label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+  }
+  
+  .schedule-form-container input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.2s ease;
+  }
+  
+  .schedule-form-container input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .schedule-form-container button {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .schedule-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .schedule-form-container p:last-of-type {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 500;
+  }
+  

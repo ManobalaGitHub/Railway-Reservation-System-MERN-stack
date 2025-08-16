@@ -1,0 +1,57 @@
+/* Button in the top-right corner */
+.button-top-right {
+  position: fixed; /* Fixed position */
+  top: 20px; /* 20px from the top */
+  right: 20px; /* 20px from the right */
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-top-right:hover {
+  background-color: #45a049;
+}
+
+/* Additional styles for the container */
+.container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.train-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.train-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.train-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.train-card button {
+  padding: 8px 16px;
+  margin: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.train-card button:hover {
+  background-color: #45a049;
+}
